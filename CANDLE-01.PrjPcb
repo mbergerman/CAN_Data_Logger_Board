@@ -133,68 +133,50 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VLKWCBOF
 
+[Document6]
+DocumentPath=SCH\CANDLE-01.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=77A7706C-1EDD-4868-ABF5-B8A03CCAD9E4
 Description=MC
 AllowFabrication=0
 ParameterCount=1
-VariationCount=1
-Variation1=Designator=U?|UniqueId=\ZGIRALRA|Kind=1|AlternatePart= 
+VariationCount=0
 ParamVariationCount=0
 
 [Parameter2_1]
 Name=VariantRevision
 Value=01
 
-[ProjectVariant2]
-UniqueID=D612DEBF-8CE8-4BF8-BD5F-0900223E9B7A
-Description=DB
-AllowFabrication=0
-ParameterCount=1
-VariationCount=22
-Variation1=Designator=U?|UniqueId=\TNAZCACK|Kind=1|AlternatePart= 
-Variation2=Designator=U?|UniqueId=\GYKXMYCR\BJUXLVIY|Kind=1|AlternatePart= 
-Variation3=Designator=CN?|UniqueId=\GYKXMYCR\RNAAMHDD|Kind=1|AlternatePart= 
-Variation4=Designator=CN?|UniqueId=\GYKXMYCR\QTUYJUND|Kind=1|AlternatePart= 
-Variation5=Designator=CN?|UniqueId=\GYKXMYCR\XPFWATQS|Kind=1|AlternatePart= 
-Variation6=Designator=CN?|UniqueId=\GYKXMYCR\XWSJGEAY|Kind=1|AlternatePart= 
-Variation7=Designator=C?|UniqueId=\GYKXMYCR\PIMJNWHC|Kind=1|AlternatePart= 
-Variation8=Designator=C?|UniqueId=\GYKXMYCR\UGWEJWYF|Kind=1|AlternatePart= 
-Variation9=Designator=C?|UniqueId=\GYKXMYCR\YGQJCLRQ|Kind=1|AlternatePart= 
-Variation10=Designator=R?|UniqueId=\GYKXMYCR\DNHBKUDF|Kind=1|AlternatePart= 
-Variation11=Designator=C?|UniqueId=\GYKXMYCR\FUEBFLPH|Kind=1|AlternatePart= 
-Variation12=Designator=C?|UniqueId=\GYKXMYCR\SFYCKPXR|Kind=1|AlternatePart= 
-Variation13=Designator=R?|UniqueId=\GYKXMYCR\YFWZJJTS|Kind=1|AlternatePart= 
-Variation14=Designator=C?|UniqueId=\GYKXMYCR\DZUVUDRQ|Kind=1|AlternatePart= 
-Variation15=Designator=C?|UniqueId=\GYKXMYCR\CMYLRNDK|Kind=1|AlternatePart= 
-Variation16=Designator=C?|UniqueId=\GYKXMYCR\UXWJSNOI|Kind=1|AlternatePart= 
-Variation17=Designator=C?|UniqueId=\GYKXMYCR\TVCYOHHQ|Kind=1|AlternatePart= 
-Variation18=Designator=C?|UniqueId=\GYKXMYCR\HBVNHLZC|Kind=1|AlternatePart= 
-Variation19=Designator=C?|UniqueId=\GYKXMYCR\PWSYERWL|Kind=1|AlternatePart= 
-Variation20=Designator=C?|UniqueId=\GYKXMYCR\DEQEWKGO|Kind=1|AlternatePart= 
-Variation21=Designator=C?|UniqueId=\GYKXMYCR\JVHWUXIU|Kind=1|AlternatePart= 
-Variation22=Designator=C?|UniqueId=\GYKXMYCR\OZFHWWJO|Kind=1|AlternatePart= 
-ParamVariationCount=0
-
-[Parameter3_1]
-Name=VariantRevision
-Value=01
-
 [Parameter1]
-Name=ProjectTitle
-Value=CAN Data Logger Board
+Name=Authors
+Value=M Bergerman, X Lin, P Smolkin, M L Stewart
 
 [Parameter2]
-Name=ProjectRevision
-Value=01
-
-[Parameter3]
 Name=ProjectNumber
 Value=CANDLE-01
 
+[Parameter3]
+Name=ProjectRevision
+Value=01
+
 [Parameter4]
-Name=Authors
-Value=M Bergerman, X Lin, P Smolkin, M L Stewart
+Name=ProjectTitle
+Value=CAN Data Logger Board
 
 [Configuration1]
 Name=Sources
@@ -1122,16 +1104,10 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=CANDLE-LIB.SchLib
-ComponentDesignItemID0=D Schottky
-ComponentSymbolReference0=D Schottky
+ComponentDesignItemID0=USB4105-GF-A-060
+ComponentSymbolReference0=USB4105-GF-A-060
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=CANDLE-LIB.SchLib
-ComponentDesignItemID1=LED
-ComponentSymbolReference1=LED
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1145,49 +1121,25 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Code_JEDEC
+ParameterName0=Comment
 ParameterUpdate0=1
-ParameterName1=Comment
+ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Component Kind
+ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=Distributor Link
 ParameterUpdate3=1
-ParameterName4=LatestRevisionDate
+ParameterName4=Library Reference
 ParameterUpdate4=1
-ParameterName5=LatestRevisionNote
+ParameterName5=Manufacturer
 ParameterUpdate5=1
-ParameterName6=Library Reference
+ParameterName6=Manufacturer Part Number
 ParameterUpdate6=1
-ParameterName7=PackageDescription
-ParameterUpdate7=1
-ParameterName8=PackageReference
-ParameterUpdate8=1
-ParameterName9=Published
-ParameterUpdate9=1
-ParameterName10=Publisher
-ParameterUpdate10=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=LED0805
+ModelName0=USB4105-GF-A-060
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=SMB
-ModelUpdate1=1
-ModelTypeGroup1=SI
-ModelTypeUpdate1=1
-ModelType2=SI
-ModelName2=D Schottky
-ModelUpdate2=1
-ModelTypeGroup2=SIM
-ModelTypeUpdate2=1
-ModelType3=SIM
-ModelName3=LED0
-ModelUpdate3=1
-ModelType4=SIM
-ModelName4=SKYDIODE
-ModelUpdate4=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1199,9 +1151,11 @@ PartTypes=0
 Net1=NetName=12V_IN|NetColor=$006E6EFF
 Net2=NetName=CAN_12V|NetColor=$006E6EFF
 Net3=NetName=GND|NetColor=$006EFF6E
-Net4=NetName=VCC_12V|NetColor=$006E6EFF
-Net5=NetName=VCC_3V3|NetColor=$006E6EFF
-Net6=NetName=VCC_5V|NetColor=$006E6EFF
+Net4=NetName=USB_5V|NetColor=$006E6EFF
+Net5=NetName=VBUS|NetColor=$006E6EFF
+Net6=NetName=VCC_12V|NetColor=$006E6EFF
+Net7=NetName=VCC_3V3|NetColor=$006E6EFF
+Net8=NetName=VCC_5V|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
