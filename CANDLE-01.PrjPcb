@@ -21,7 +21,7 @@ UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
-NameNetsHierarchically=0
+NameNetsHierarchically=1
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
 AutoCrossReferences=1
@@ -150,6 +150,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document7]
+DocumentPath=SCH\MCU.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=77A7706C-1EDD-4868-ABF5-B8A03CCAD9E4
 Description=MC
@@ -163,20 +180,20 @@ Name=VariantRevision
 Value=01
 
 [Parameter1]
-Name=Authors
-Value=M Bergerman, X Lin, P Smolkin, M L Stewart
+Name=ProjectTitle
+Value=CAN Data Logger Board
 
 [Parameter2]
-Name=ProjectNumber
-Value=CANDLE-01
-
-[Parameter3]
 Name=ProjectRevision
 Value=01
 
+[Parameter3]
+Name=ProjectNumber
+Value=CANDLE-01
+
 [Parameter4]
-Name=ProjectTitle
-Value=CAN Data Logger Board
+Name=Authors
+Value=M Bergerman, X Lin, P Smolkin, M L Stewart
 
 [Configuration1]
 Name=Sources
@@ -1058,23 +1075,23 @@ Type125=1
 Type126=1
 
 [ERC Connection Matrix]
-L1=NNNNNNNNNNNWNNNWW
-L2=NNWNNNNWWWNWNWNWN
-L3=NWEENEEEENEWNEEWN
-L4=NNENNNWEENNWNENWN
-L5=NNNNNNNNNNNNNNNNN
-L6=NNENNNNEENNWNENWN
-L7=NNEWNNWEENNWNENWN
-L8=NWEENEENEEENNEENN
-L9=NWEENEEEENEWNEEWW
-L10=NWNNNNNENNEWNNEWN
-L11=NNENNNNEEENWNENWN
-L12=WWWWNWWNWWWNWWWNN
-L13=NNNNNNNNNNNWNNNWW
-L14=NWEENEEEENEWNEEWW
-L15=NNENNNNEEENWNENWW
-L16=WWWWNWWNWWWNWWWNW
-L17=WNNNNNNNWNNNWWWWN
+L1=NNNNNNNNNNNWNNNWE
+L2=NNWNNNNWWWNWNWNWE
+L3=NWEENEEEENEWNEEWE
+L4=NNENNNWEENNWNENWE
+L5=NNNNNNNNNNNNNNNNE
+L6=NNENNNNEENNWNENWE
+L7=NNEWNNWEENNWNENWE
+L8=NWEENEENEEENNEENE
+L9=NWEENEEEENEWNEEWE
+L10=NWNNNNNENNEWNNEWE
+L11=NNENNNNEEENWNENWE
+L12=WWWWNWWNWWWNWWWNE
+L13=NNNNNNNNNNNWNNNWE
+L14=NWEENEEEENEWNEEWE
+L15=NNENNNNEEENWNENWE
+L16=WWWWNWWNWWWNWWWNE
+L17=EEEEEEEEEEEEEEEEE
 
 [Annotate]
 SortOrder=3
@@ -1151,11 +1168,14 @@ PartTypes=0
 Net1=NetName=12V_IN|NetColor=$006E6EFF
 Net2=NetName=CAN_12V|NetColor=$006E6EFF
 Net3=NetName=GND|NetColor=$006EFF6E
-Net4=NetName=USB_5V|NetColor=$006E6EFF
-Net5=NetName=VBUS|NetColor=$006E6EFF
-Net6=NetName=VCC_12V|NetColor=$006E6EFF
-Net7=NetName=VCC_3V3|NetColor=$006E6EFF
-Net8=NetName=VCC_5V|NetColor=$006E6EFF
+Net4=NetName=PIN40|NetColor=$006E6EFF
+Net5=NetName=PIN48|NetColor=$006E6EFF
+Net6=NetName=PIN8|NetColor=$006E6EFF
+Net7=NetName=USB_5V|NetColor=$006E6EFF
+Net8=NetName=USB_VBUS|NetColor=$006E6EFF
+Net9=NetName=VCC_12V|NetColor=$006E6EFF
+Net10=NetName=VCC_3V3|NetColor=$006E6EFF
+Net11=NetName=VCC_5V|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
