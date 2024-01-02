@@ -13,7 +13,7 @@ TemplateLocationPath=C:\Users\Matias\Downloads\CAN_Data_Logger_Board\LIB\
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
 AllowPortNetNames=0
-AllowSheetEntryNetNames=1
+AllowSheetEntryNetNames=0
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
 DefaultConfiguration=Sources
@@ -101,7 +101,7 @@ DocumentUniqueId=WNYSDJRL
 
 [Document4]
 DocumentPath=SCH\CANDLE-01.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -118,7 +118,7 @@ DocumentUniqueId=ANYWOXCT
 
 [Document5]
 DocumentPath=SCH\MCU.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -1120,9 +1120,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Component_Lib.SchLib
-ComponentDesignItemID0=MK64FN1M0VLL12_1
-ComponentSymbolReference0=MK64FN1M0VLL12_1
+ComponentLibraryIdentifier0=CANDLE-LIB.SchLib
+ComponentDesignItemID0=LM2575T-5.0
+ComponentSymbolReference0=LM2575T-5.0
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1138,31 +1138,44 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=AssemblyComments
+ParameterName0=Code_IPC
 ParameterUpdate0=1
-ParameterName1=Comment
+ParameterName1=Code_JEDEC
 ParameterUpdate1=1
-ParameterName2=Component Kind
+ParameterName2=Comment
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=Component Kind
 ParameterUpdate3=1
-ParameterName4=Footprint Checked
+ParameterName4=ComponentLink1Description
 ParameterUpdate4=1
-ParameterName5=FP_DESC
+ParameterName5=ComponentLink1URL
 ParameterUpdate5=1
-ParameterName6=Library Reference
+ParameterName6=CompType
 ParameterUpdate6=1
-ParameterName7=MFG
+ParameterName7=Description
 ParameterUpdate7=1
-ParameterName8=MFG_PN
+ParameterName8=High-Reliability
 ParameterUpdate8=1
-ParameterName9=Symbol Checked
+ParameterName9=Library Reference
 ParameterUpdate9=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=QFP50P1600X1600X160-100N
-ModelUpdate0=1
+ParameterName10=Manufacturer
+ParameterUpdate10=1
+ParameterName11=Manufacturer Part Number
+ParameterUpdate11=1
+ParameterName12=PackageDescription
+ParameterUpdate12=1
+ParameterName13=PackageReference
+ParameterUpdate13=1
+ParameterName14=PackageTopMarking
+ParameterUpdate14=1
+ParameterName15=PartNumber
+ParameterUpdate15=1
+ParameterName16=PinCount
+ParameterUpdate16=1
+ParameterName17=PowerWise
+ParameterUpdate17=1
+ParameterName18=RoHS
+ParameterUpdate18=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1177,11 +1190,12 @@ Net3=NetName=GND|NetColor=$006EFF6E
 Net4=NetName=PIN40|NetColor=$006E6EFF
 Net5=NetName=PIN48|NetColor=$006E6EFF
 Net6=NetName=PIN8|NetColor=$006E6EFF
-Net7=NetName=USB_5V|NetColor=$006E6EFF
-Net8=NetName=USB_VBUS|NetColor=$006E6EFF
-Net9=NetName=VCC_12V|NetColor=$006E6EFF
-Net10=NetName=VCC_3V3|NetColor=$006E6EFF
-Net11=NetName=VCC_5V|NetColor=$006E6EFF
+Net7=NetName=SWD_3V3|NetColor=$006E6EFF
+Net8=NetName=USB_5V|NetColor=$006E6EFF
+Net9=NetName=USB_VBUS|NetColor=$006E6EFF
+Net10=NetName=VCC_12V|NetColor=$006E6EFF
+Net11=NetName=VCC_3V3|NetColor=$006E6EFF
+Net12=NetName=VCC_5V|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
