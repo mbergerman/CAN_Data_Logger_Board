@@ -180,20 +180,20 @@ Name=VariantRevision
 Value=01
 
 [Parameter1]
-Name=ProjectTitle
-Value=CAN Data Logger Board
+Name=Authors
+Value=M Bergerman, X Lin, P Smolkin, M L Stewart
 
 [Parameter2]
-Name=ProjectRevision
-Value=01
-
-[Parameter3]
 Name=ProjectNumber
 Value=CANDLE-01
 
+[Parameter3]
+Name=ProjectRevision
+Value=01
+
 [Parameter4]
-Name=Authors
-Value=M Bergerman, X Lin, P Smolkin, M L Stewart
+Name=ProjectTitle
+Value=CAN Data Logger Board
 
 [Configuration1]
 Name=Sources
