@@ -180,20 +180,20 @@ Name=VariantRevision
 Value=01
 
 [Parameter1]
-Name=Authors
-Value=M Bergerman, X Lin, P Smolkin, M L Stewart
+Name=ProjectTitle
+Value=CAN Data Logger Board
 
 [Parameter2]
-Name=ProjectNumber
-Value=CANDLE-01
-
-[Parameter3]
 Name=ProjectRevision
 Value=01
 
+[Parameter3]
+Name=ProjectNumber
+Value=CANDLE-01
+
 [Parameter4]
-Name=ProjectTitle
-Value=CAN Data Logger Board
+Name=Authors
+Value=M Bergerman, X Lin, P Smolkin, M L Stewart
 
 [Configuration1]
 Name=Sources
@@ -961,7 +961,7 @@ Type10=1
 Type11=2
 Type12=0
 Type13=0
-Type14=1
+Type14=0
 Type15=1
 Type16=1
 Type17=1
@@ -1076,17 +1076,17 @@ Type126=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWE
-L2=NNWNNNNWWWNWNWNWE
+L2=NNWNNNNNWWNNNWNWE
 L3=NWEENEEEENEWNEEWE
 L4=NNENNNWEENNWNENWE
 L5=NNNNNNNNNNNNNNNNE
 L6=NNENNNNEENNWNENWE
 L7=NNEWNNWEENNWNENWE
-L8=NWEENEENEEENNEENE
+L8=NNEENEENEEENNEENE
 L9=NWEENEEEENEWNEEWE
 L10=NWNNNNNENNEWNNEWE
 L11=NNENNNNEEENWNENWE
-L12=WWWWNWWNWWWNWWWNE
+L12=WNWWNWWNWWWNWWWNE
 L13=NNNNNNNNNNNWNNNWE
 L14=NWEENEEEENEWNEEWE
 L15=NNENNNNEEENWNENWE
