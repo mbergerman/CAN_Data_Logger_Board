@@ -23,26 +23,15 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=1
 PowerPortNamesTakePriority=0
-AutoSheetNumbering=0
-AutoCrossReferences=1
-NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-IsProjectConflictPreventionWarningsEnabled=1
-IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-CrossRefSheetStyle=1
-CrossRefLocationStyle=1
-CrossRefPorts=0
-CrossRefCrossSheets=1
-CrossRefSheetEntries=0
-CrossRefFollowFromMainSettings=1
 
 [Preferences]
 PrefsVaultGUID=
@@ -197,20 +186,20 @@ Name=VariantRevision
 Value=01
 
 [Parameter1]
-Name=ProjectTitle
-Value=CAN Data Logger Board
+Name=Authors
+Value=M Bergerman, X Lin, P Smolkin, M L Stewart
 
 [Parameter2]
-Name=ProjectRevision
-Value=01
-
-[Parameter3]
 Name=ProjectNumber
 Value=CANDLE-01
 
+[Parameter3]
+Name=ProjectRevision
+Value=01
+
 [Parameter4]
-Name=Authors
-Value=M Bergerman, X Lin, P Smolkin, M L Stewart
+Name=ProjectTitle
+Value=CAN Data Logger Board
 
 [Configuration1]
 Name=Sources
@@ -331,7 +320,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=RICOH M C250FW (3c85f7)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -550,18 +539,6 @@ OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=BOM_ReportCompare
-OutputName7=BOM Compare
-OutputDocumentPath7=
-OutputVariantName7=[No Variations]
-OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=Export Comments
-OutputName8=Export Comments
-OutputDocumentPath8=
-OutputVariantName8=[No Variations]
-OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1098,12 +1075,10 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
+MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
 Type123=1
-Type124=1
-Type125=1
-Type126=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWE
@@ -1152,83 +1127,11 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=CANDLE-LIB.SchLib
-ComponentDesignItemID0=Capacitor Polarized
-ComponentSymbolReference0=Capacitor Polarized
+ComponentDesignItemID0=LM2596S-ADJ/NOPB
+ComponentSymbolReference0=LM2596S-ADJ/NOPB
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=CANDLE-LIB.SchLib
-ComponentDesignItemID1=Capacitor
-ComponentSymbolReference1=Capacitor
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=CANDLE-LIB.SchLib
-ComponentDesignItemID2=Diode Schottky
-ComponentSymbolReference2=Diode Schottky
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=CANDLE-LIB.SchLib
-ComponentDesignItemID3=Diode Zener
-ComponentSymbolReference3=Diode Zener
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=CANDLE-LIB.SchLib
-ComponentDesignItemID4=Inductor
-ComponentSymbolReference4=Inductor
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=CANDLE-LIB.SchLib
-ComponentDesignItemID5=Jumper Header
-ComponentSymbolReference5=Jumper Header
-ComponentUpdate5=1
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=CANDLE-LIB.SchLib
-ComponentDesignItemID6=LED 3mm Green RA
-ComponentSymbolReference6=LED 3mm Green RA
-ComponentUpdate6=1
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=CANDLE-LIB.SchLib
-ComponentDesignItemID7=LED 3mm Red RA
-ComponentSymbolReference7=LED 3mm Red RA
-ComponentUpdate7=1
-ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=CANDLE-LIB.SchLib
-ComponentDesignItemID8=LM2596S-ADJ/NOPB
-ComponentSymbolReference8=LM2596S-ADJ/NOPB
-ComponentUpdate8=1
-ComponentIsDeviceSheet8=0
-ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=CANDLE-LIB.SchLib
-ComponentDesignItemID9=LM317D2TG
-ComponentSymbolReference9=LM317D2TG
-ComponentUpdate9=1
-ComponentIsDeviceSheet9=0
-ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=CANDLE-LIB.SchLib
-ComponentDesignItemID10=Resistor
-ComponentSymbolReference10=Resistor
-ComponentUpdate10=1
-ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=CANDLE-LIB.SchLib
-ComponentDesignItemID11=Si4948BEY
-ComponentSymbolReference11=Si4948BEY
-ComponentUpdate11=1
-ComponentIsDeviceSheet11=0
-ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=CANDLE-LIB.SchLib
-ComponentDesignItemID12=Testpoint
-ComponentSymbolReference12=Testpoint
-ComponentUpdate12=1
-ComponentIsDeviceSheet12=0
-FullReplace=0
+FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
 PreserveParameterLocations=1
@@ -1241,143 +1144,19 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Case/Package
+ParameterName0=Comment
 ParameterUpdate0=0
-ParameterName1=Code_IEC
+ParameterName1=Component Kind
 ParameterUpdate1=0
-ParameterName2=Code_JEITA
-ParameterUpdate2=0
-ParameterName3=Comment
+ParameterName2=Description
+ParameterUpdate2=1
+ParameterName3=Library Reference
 ParameterUpdate3=0
-ParameterName4=Component Kind
-ParameterUpdate4=0
-ParameterName5=Continuous Drain Current (ID)
-ParameterUpdate5=0
-ParameterName6=Description
-ParameterUpdate6=1
-ParameterName7=Drain to Source Resistance
-ParameterUpdate7=0
-ParameterName8=Drain to Source Voltage (Vdss)
-ParameterUpdate8=0
-ParameterName9=Drain-source On Resistance-Max
-ParameterUpdate9=0
-ParameterName10=Element Configuration
-ParameterUpdate10=0
-ParameterName11=Fall Time
-ParameterUpdate11=0
-ParameterName12=Gate to Source Voltage (Vgs)
-ParameterUpdate12=0
-ParameterName13=Height
-ParameterUpdate13=0
-ParameterName14=LatestRevisionDate
-ParameterUpdate14=0
-ParameterName15=LatestRevisionNote
-ParameterUpdate15=0
-ParameterName16=Lead Free
-ParameterUpdate16=0
-ParameterName17=Length
-ParameterUpdate17=0
-ParameterName18=Library Reference
-ParameterUpdate18=0
-ParameterName19=Max Operating Temperature
-ParameterUpdate19=0
-ParameterName20=Max Power Dissipation
-ParameterUpdate20=0
-ParameterName21=Min Operating Temperature
-ParameterUpdate21=0
-ParameterName22=Mount
-ParameterUpdate22=0
-ParameterName23=Nominal Vgs
-ParameterUpdate23=0
-ParameterName24=Number of Channels
-ParameterUpdate24=0
-ParameterName25=Number of Elements
-ParameterUpdate25=0
-ParameterName26=Number of Pins
-ParameterUpdate26=0
-ParameterName27=On-State Resistance
-ParameterUpdate27=0
-ParameterName28=Package Quantity
-ParameterUpdate28=0
-ParameterName29=PackageDescription
-ParameterUpdate29=0
-ParameterName30=PackageReference
-ParameterUpdate30=0
-ParameterName31=Packaging
-ParameterUpdate31=0
-ParameterName32=Polarity
-ParameterUpdate32=0
-ParameterName33=Power Dissipation
-ParameterUpdate33=0
-ParameterName34=Published
-ParameterUpdate34=0
-ParameterName35=Publisher
-ParameterUpdate35=0
-ParameterName36=Radiation Hardening
-ParameterUpdate36=0
-ParameterName37=Rds On Max
-ParameterUpdate37=0
-ParameterName38=Reach SVHC Compliant
-ParameterUpdate38=0
-ParameterName39=Rise Time
-ParameterUpdate39=0
-ParameterName40=RoHS Compliant
-ParameterUpdate40=0
-ParameterName41=Series
-ParameterUpdate41=0
-ParameterName42=Threshold Voltage
-ParameterUpdate42=0
-ParameterName43=Turn-Off Delay Time
-ParameterUpdate43=0
-ParameterName44=Turn-On Delay Time
-ParameterUpdate44=0
-ParameterName45=Voltage
-ParameterUpdate45=0
-ParameterName46=Weight
-ParameterUpdate46=0
-ParameterName47=Width
-ParameterUpdate47=0
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=8-SOIC
+ModelName0=LM2596S-ADJ/NOPB
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=CAP0805
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=DO-35
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=DRQ127-INDUCTOR
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=JUMPER-HEADER
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=LED-3MM-GREEN-RA
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=LED-3MM-RED-RA
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=LM2596S-ADJ/NOPB
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=RAD-CAP-12.5/5mm
-ModelUpdate8=1
-ModelType9=PCBLIB
-ModelName9=RES0805
-ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=SOD-123
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=TO-263
-ModelUpdate11=1
-ModelType12=PCBLIB
-ModelName12=TP_SMD_Ø1.0mm
-ModelUpdate12=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1400,12 +1179,12 @@ Net11=NetName=VCC_3V3|NetColor=$006E6EFF
 Net12=NetName=VCC_5V|NetColor=$006E6EFF
 
 [Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=0|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=0|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=0|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|Confirm=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
