@@ -185,6 +185,10 @@ ParamVariationCount=0
 Name=VariantRevision
 Value=01
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for CANDLE-01\Design Rule Check - CANDLE-01.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Authors
 Value=M Bergerman, X Lin, P Smolkin, M L Stewart
