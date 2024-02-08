@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=0
-OutputPath=Project Outputs for CANDLE-01
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -185,7 +185,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MVTKJQYS
 
 [Document9]
-DocumentPath=Project Outputs for CANDLE-01\CANDLE-01-SCH.OutJob
+DocumentPath=CANDLE-01.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -344,7 +344,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for CANDLE-01
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
